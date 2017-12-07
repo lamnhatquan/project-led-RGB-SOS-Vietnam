@@ -50,6 +50,16 @@ void rainbowCycle() {
     delay(100);
   }
 }
+// dieu khien  bong led thu n sang, các bong con lai tat
+//void ShowLedUtilN(int n){  
+//  for(int i=0;i<1001;i++){
+//    if (i == n)
+//      strip.setPixelColor (i, ,255,255);
+//    else
+//      strip.setPixelColor (i, 0,0,0);
+//  }
+// strip.show(); 
+//}
 
 void OnTimerOneInterrupt ()
 {
@@ -70,4 +80,5 @@ void setup()
 void loop()
 {
   rainbowCycle();
+//ShowLedUtilN(50);
 }
